@@ -1,0 +1,45 @@
+/* Colors */
+:root {
+--bg-color: DarkSlateGray;
+--txt-color: FloralWhite;
+--font: "Courier New", sans-serif;
+}
+
+body {
+    background: var(--bg-color);
+    font-family: var(--font);
+    color: var(--txt-color);
+}
+
+h1 {
+    font-family: "Lucida Console", sans-serif;
+    font-size: 3.0em;
+}
+
+h5 {
+    margin-top: -25px;
+    font-style: italic;
+    ;
+}
+
+.largest {
+    width:max-content;
+    margin: 200px auto;
+    color: var(--txt-color);
+}
+
+#seconds, #tens {
+    font-size: 400%;
+}
+
+button {
+    cursor: pointer;
+    border: solid 3px var(--txt-color);
+    font-size: 1.5em;
+    margin: 3px;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
